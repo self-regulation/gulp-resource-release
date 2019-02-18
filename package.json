@@ -1,0 +1,38 @@
+
+{
+  "name": "gulp-resource-release",
+  "version": "1.0.0",
+  "description": "a plugin for gulp.js to add version after file's name by content hash.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/self-regulation/gulp-resource-release.git"
+  },
+  "author": "wanghui",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "resource version",
+    "asset version",
+    "md5"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  },
+  "maintainers": [
+    "18317958929@163.com"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
