@@ -68,7 +68,6 @@ module.exports = function (options) {
                             assetPath = (options.rootPath || "") + src;
                         }
                     }
-                    console.log(assetPath);
                     if (fs.existsSync(assetPath)) {
 
                         var buf = fs.readFileSync(assetPath);
@@ -78,10 +77,8 @@ module.exports = function (options) {
                         var verStr = (options.verConnecter || "") + md5;
                         src=src+"?v="+verStr;
                     } else {
-                        console.log(str);
                         return str;
                     }
-                    console.log(tag + '"' + src + '"');
                     return tag + '"' + src + '"';
                 });
             }
